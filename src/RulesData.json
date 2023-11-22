@@ -1,0 +1,80 @@
+{
+    "form": {
+      "sections": [
+        {
+          "title": "Identity",
+          "fields": [
+            {
+              "label": "Scope",
+              "options": ["Global"]
+            }
+          ]  
+        },
+        {
+          "title": "Source",
+          "fields": [
+            {
+              "label": "Trigger",
+              "options": ["Choose...", "..."]
+            }
+          ]
+        },
+        {
+          "title": "Conditions and Actions",
+          "fields": [
+            {
+              "label": "Condition",
+              "options": ["Choose...", "..."]
+            },
+            {
+              "label": "Action",
+              "options": ["Choose...", "..."]
+            }
+          ]
+        },
+        {
+          "title": "Description",
+          "fields": [
+            {
+              "label": "Description",
+              "type": "textarea",
+              "rows": 3
+            }
+          ]
+        },
+        {
+          "title": "Recipient",
+          "fields": [
+            {
+              "label": "Recipient Description",
+              "options": ["Assigned To", "Assigned By", "Both", "Specific User"]
+            }
+          ]
+        },
+        {
+          "title": "Channel and Severity",
+          "fields": [
+            {
+              "label": "Channel",
+              "options": ["In-app", "Email", "SMS"]
+            },
+            {
+              "label": "Severity",
+              "options": ["High", "Medium", "Low"]
+            }
+          ]
+        },
+        {
+          "title": "Other Options",
+          "fields": [
+            {
+              "label": "Check me out",
+              "type": "checkbox"
+            }
+          ]
+        }
+      ],
+      "submitButton": "Submit"
+    }
+  }
+  
